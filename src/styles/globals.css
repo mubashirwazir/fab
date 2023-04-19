@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+    font-size: 20px;
+    font-weight: 400;
+    /* line-height: 22px; */
+    
+
+}
+.column {
+  flex: auto;
+  flex-direction: column;
+  width: 32%;
+}
+.customeColor{
+  color: #009AFF;
+}
+.bodyWrap{
+  
+  background-image: url(../../public/wavy-lines.jpg);
+  background-repeat: repeat;
+}
+.contentWrap{
+  background-color: white;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 2px 2px #c5c3c3;
+  width: 80%;
+  margin: auto;
+ 
+}
+a {
+  color: #009AFF;
+}
+a:hover{
+  color: #434343;
+}
