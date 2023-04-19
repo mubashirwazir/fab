@@ -11,6 +11,7 @@ export default function home(): JSX.Element {
             <div className="contentWrap">
                 <div className="SliderContent h-full mx-auto flex items-center">
                     <Image
+					
                         src="/slider1.jpg"
                         alt="Slideer Logo"
                         className="dark:invert "
