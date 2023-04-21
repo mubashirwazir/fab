@@ -5,3 +5,4 @@ export const NavBar = () => {
         <p>This is Nav</p>
     )
 }
+export default NavBar;
