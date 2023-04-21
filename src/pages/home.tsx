@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 import { Layout } from "./components";
+import Slideshow from "./components/Slideshow";
 
 
 
@@ -9,17 +10,7 @@ export default function home(): JSX.Element {
     return (
         <Layout>
             <div className="contentWrap">
-                <div className="SliderContent h-full mx-auto flex items-center">
-                    <Image
-					
-                        src="/slider1.jpg"
-                        alt="Slideer Logo"
-                        className="dark:invert "
-                        width={1520}
-                        height={820}
-
-                    />
-                </div>
+                <Slideshow/>
 
                 <div className="h-full mx-auto  flex items-center p-12">
                     <div className="flex-1 h-[400px] p-4 ">
