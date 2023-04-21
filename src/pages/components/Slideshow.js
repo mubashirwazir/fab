@@ -7,11 +7,11 @@ import "react-slideshow-image/dist/styles.css";
 const Slideshow = () => {
 	//Array of Images
 	const images = [
-		"slider1.jpg",
-        "slider2.jpg",
-        "slider3.jpg",
-        "slider4.jpg",
-        "slider5.jpg"
+		"/slider1.jpg",
+        "/slider2.jpg",
+        "/slider3.jpg",
+        "/slider4.jpg",
+        "/slider5.jpg"
 	];
 
 
@@ -55,6 +55,8 @@ const Slideshow = () => {
 							className="w-full h-full object-cover rounded-lg shadow-xl"
 							src={each}
 							alt="Slider Logo"
+							width={1920}
+							height={5000}
 						/>
 					</div>
 				))}

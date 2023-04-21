@@ -42,6 +42,7 @@ export default function home(): JSX.Element {
                         <Image
                             src="/fp-mainbody-1.jpg"
                             alt="Slideer Logo"
+                           // placeholder="blur"
                             className="dark:invert w-75 "
                             width={600}
                             height={300}
