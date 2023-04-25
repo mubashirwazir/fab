@@ -16,9 +16,9 @@ export const Layout = ({children, ...props}: Props) => {
     
     <main {...props}>{children}</main>
     
-    
-    </div>
     <Footer/>
+    </div>
+    
     <Disclaimer/>
 
     </>
